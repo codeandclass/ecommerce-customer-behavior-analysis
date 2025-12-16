@@ -97,14 +97,9 @@ Order identifiers may appear multiple times (e.g., `ORD_1023-1`, `ORD_1023-2`) t
 ├── requirements.txt
 ├── data/
 │   ├── ecommerce_customer_behavior_dataset_v2.csv
-│   └── sample.csv
 ├── notebooks/
-│   ├── analysis.ipynb
-│   └── analysis.html
-└── src/
-    ├── eda.py
-    └── modeling.py
-```
+│   ├── ecommerce_customer_eda.ipynb
+│   └── ecommerce_customer_eda.html
 
 ---
 
